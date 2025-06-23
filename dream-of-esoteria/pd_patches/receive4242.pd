@@ -1,0 +1,6 @@
+#N canvas 727 336 450 300 12;
+#X listbox 95 76 20 0 0 0 - - - 0;
+#X obj 95 99 print;
+#X obj 95 52 netreceive 4242;
+#X connect 0 0 1 0;
+#X connect 2 0 0 0;
